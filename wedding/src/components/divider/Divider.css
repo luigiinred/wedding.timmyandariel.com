@@ -1,0 +1,47 @@
+/* 
+  Maroon: #4d0000
+  Ivory: #fffff0
+ */
+
+.divider-container {
+    position: relative;
+    height: 80px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    z-index: 100;
+}
+.divider-container.up {
+    transform: rotate(-.5deg);
+}
+.divider-container.down {
+    transform: rotate(.5deg);
+}
+
+.divider-maroon {
+    height: 50px;
+    background-color: #4d0000;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 0px 5px black;
+    position: relative;
+    top: -65px;
+}
+
+.divider-ivory {
+    height: 80px;
+    background-color: #fffff0;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0px 0px 5px black;
+    position: relative;
+}
+
+.divider-rose-gold {
+    height: 20px;
+    background: #000 url(./ribbon.jpg) repeat top center;
+    margin: 0;
+    padding: 0;
+    top: -100px;
+
+    position: relative;
+}
